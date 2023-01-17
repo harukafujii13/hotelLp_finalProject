@@ -1,0 +1,120 @@
+@use 'base' as *;
+
+main {
+   height: 100vh;
+   background: url(/image/nav_main.jpg) no-repeat center/cover;
+   position: relative;
+}
+
+
+//header
+
+
+.nav-main {
+   display: flex;
+   justify-content: space-between;
+   background-color: $color-nav;
+   padding: 0.5rem 0;
+   align-items: center;
+
+   .logo {
+      align-items: center;
+      margin-left: 1rem;
+   }
+
+   .upper-links {
+      display: flex;
+      justify-content: space-around;
+
+   }
+
+   li {
+      list-style: none;
+      padding-right: 1.5rem;
+      align-items: center;
+      font-size: 1rem;
+      font-family: $nav-font;
+      font-weight: bold;
+   }
+
+   a {
+      text-decoration: none;
+      color: $color-text;
+   }
+}
+
+.nav-supporting {
+   display: flex;
+   justify-content: flex-end;
+   padding: 1rem;
+
+   .lower-links {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   li {
+      list-style: none;
+      font-family: $nav-font;
+      font-weight: bolder;
+      padding-right: 1.5rem;
+      align-items: center;
+   }
+
+   a {
+      text-decoration: none;
+      color: $color-text;
+   }
+
+}
+
+section {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+
+
+   h1 {
+      font-family: $section-font;
+      color: $color-main;
+      text-align: center;
+      font-size: 3rem;
+   }
+
+
+
+}
+
+.section-btn {
+   position: relative;
+   left: 50%;
+   top: 55%;
+   transform: translate(-50%, -50%);
+   background-color: $color-pink;
+   padding: 10px 15px;
+   color: $color-main;
+   border: none;
+   font-size: 1.5rem;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+//benefit
+.benefit {
+   // .benefit-img {
+   //    max-width: 20rem;
+   //    height: 18rem;
+   // }
+
+   .nature-img {
+      width: 7rem;
+      height: auto;
+   }
+
+   .nyc-img {
+      width: 7rem;
+      height: auto;
+   }
+
+}
