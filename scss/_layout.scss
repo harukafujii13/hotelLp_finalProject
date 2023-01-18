@@ -102,19 +102,64 @@ section {
 
 //benefit
 .benefit {
-   // .benefit-img {
-   //    max-width: 20rem;
-   //    height: 18rem;
-   // }
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
 
+   // .benefit-img {
+   //    display: flex;
+   //    justify-content: space-between;
+   // }
    .nature-img {
-      width: 7rem;
+      width: 17rem;
       height: auto;
+      margin-right: 2rem;
    }
 
    .nyc-img {
-      width: 7rem;
+      width: 17rem;
       height: auto;
    }
 
+}
+
+.message-top {
+   h1 {
+      font-family: $section-font;
+      color: $color-text;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+   }
+}
+
+.benefit-container {
+   width: 40rem;
+   height: auto;
+   padding: 0.5rem;
+}
+
+.message-container {
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 1.5rem;
+   // justify-content: space-between;
+
+   .message-img {
+      width: 3rem;
+      height: auto;
+      margin-right: 2rem;
+      
+   }
+
+   h3 {
+      font-family: $section-font;
+      color: $color-text;
+      font-size: 1.5rem;
+   }
+
+   p {
+      font-family: $font-forP;
+   }
 }

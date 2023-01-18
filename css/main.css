@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-body {
-  color: white;
-}
-
 main {
   height: 100vh;
   background: url(/image/nav_main.jpg) no-repeat center/cover;
@@ -17,7 +13,7 @@ main {
 .nav-main {
   display: flex;
   justify-content: space-between;
-  background-color: #ece7e7;
+  background-color: #5a6157;
   padding: 0.5rem 0;
   align-items: center;
 }
@@ -90,13 +86,53 @@ section h1 {
   border-radius: 5px;
 }
 
+.benefit {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .benefit .nature-img {
-  width: 7rem;
+  width: 17rem;
   height: auto;
+  margin-right: 2rem;
 }
 .benefit .nyc-img {
-  width: 7rem;
+  width: 17rem;
   height: auto;
+}
+
+.message-top h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(13, 13, 37);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.benefit-container {
+  width: 40rem;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+}
+.message-container .message-img {
+  width: 3rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.message-container h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(13, 13, 37);
+  font-size: 1.5rem;
+}
+.message-container p {
+  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=main.css.map */

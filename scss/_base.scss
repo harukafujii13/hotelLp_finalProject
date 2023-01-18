@@ -1,11 +1,13 @@
 $color-text: rgb(13, 13, 37);
 $color-main: white;
-$color-nav: #ece7e7;
-$color-nav2: rgb(189, 181, 181);
-$color-pink: #e4beb6;;
+$color-nav: #5a6157;
+$color-nav2: rgb(181, 189, 184);
+$color-pink: #e4beb6;
+$color-rose: #975a4f;
 
 $nav-font: 'Roboto', sans-serif;
 $section-font:'Roboto', sans-serif;
+$font-forP: 'Roboto Slab', serif;
 
 * {
     box-sizing: border-box;
@@ -13,6 +15,4 @@ $section-font:'Roboto', sans-serif;
     margin: 0;
   }
 
-body {
-    color: $color-main;
-}
+
