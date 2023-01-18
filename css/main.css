@@ -87,7 +87,7 @@ section h1 {
 }
 
 .benefit {
-  margin-top: 2rem;
+  margin: 2rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -133,6 +133,33 @@ section h1 {
 }
 .message-container p {
   font-family: "Roboto Slab", serif;
+}
+
+.distination {
+  margin: 3rem 1rem;
+}
+.distination h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.distination .distination-content1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+.distination h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+.distination .distination-content2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.distination .distination-img {
+  width: 20rem;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

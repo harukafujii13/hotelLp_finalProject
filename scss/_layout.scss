@@ -102,7 +102,7 @@ section {
 
 //benefit
 .benefit {
-   margin-top: 2rem;
+   margin: 2rem 0;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -161,5 +161,41 @@ section {
 
    p {
       font-family: $font-forP;
+   }
+}
+
+//distination
+
+.distination {
+   margin: 3rem 1rem;
+   h1 {
+      font-family: $nav-font;
+      text-align: center;
+   }
+
+   .distination-content1 {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 2rem 0;
+   }
+
+   h3 {
+      font-family: $font-forP;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+   }
+
+   .distination-content2 {
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+
+
+   .distination-img {
+      width: 20rem;
+      height: auto;
+
    }
 }
