@@ -347,4 +347,40 @@ section h1 {
   color: #5a6157;
 }
 
+.footer-content {
+  background-color: #5a6157;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  padding: 4rem 0;
+}
+.footer-content .explain {
+  width: 17rem;
+  height: auto;
+}
+.footer-content h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 0;
+}
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+.footer-bottum {
+  background-color: #e4beb6;
+  padding: 1.5rem 0;
+}
+.footer-bottum p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.footer-bottum .social-media {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.footer-bottum .media-logo {
+  margin: 0 3px;
+}
+
 /*# sourceMappingURL=main.css.map */
