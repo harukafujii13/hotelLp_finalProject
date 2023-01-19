@@ -111,13 +111,13 @@ section {
    //    justify-content: space-between;
    // }
    .nature-img {
-      width: 17rem;
+      max-width: 17rem;
       height: auto;
       margin-right: 2rem;
    }
 
    .nyc-img {
-      width: 17rem;
+      max-width: 17rem;
       height: auto;
    }
 
@@ -395,6 +395,8 @@ section {
 }
 
 //adress
+
+
 .address {
 
    .address-content {

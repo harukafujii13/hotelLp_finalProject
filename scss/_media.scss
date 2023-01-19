@@ -1,0 +1,159 @@
+@media screen and (max-width: 1130px) {
+    .benefit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .message-top h1 {
+        margin: 2rem 0;
+    }
+
+    .distination-content1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: 2rem 0 0 0;
+    }
+
+    .distination-content2 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .distination-container {
+        margin-bottom: 1rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    section h1 {
+        font-size: 2.5rem;
+    }
+
+    .benefit-img {
+        display: flex;
+        flex-direction: column;
+
+        .nature-img {
+            max-width: 13rem;
+            height: auto;
+            margin: 0;
+        }
+    
+        .nyc-img {
+            max-width: 13rem;
+            height: auto;
+            margin-top: 1rem;
+        }
+    
+    }
+
+    .benefit-container {
+        width: 20rem;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .section-btn {
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+    .benefit-container {
+        width: 30rem;
+        height: auto;
+    }
+
+    .contact-content {
+        width: 30rem;
+        height: auto;
+    }
+
+    .address-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .address-info {
+        margin: 0.5rem 0;
+    }
+
+    .google {
+        width: 350px;
+        margin: auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 570px){
+    .benefit-container {
+        width: 25rem;
+        height: auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .gallery-content {
+            margin: 0.5rem 0;
+        }
+    }
+
+    .contact-content {
+        width: 20rem;
+        height: auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 380px){
+    .benefit-container {
+        width: 20rem;
+        height: auto;
+    }
+
+    .google {
+        width: 300px;
+        margin: auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+}
+
