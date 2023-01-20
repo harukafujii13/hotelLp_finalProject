@@ -70,6 +70,10 @@
         height: auto;
     }
 
+    .nav-supporting {
+        display: flex;
+        justify-content: center;
+    }
 
 
 
@@ -113,12 +117,12 @@
         flex-direction: column;
         
         .logo{
-            margin: 0;
+            margin: 0.5rem 0;
         }
 
         .upper-links li{
             padding: 0;
-            margin-right: 1.5rem;
+            margin-right: 1rem;
         }
 
     }
@@ -176,5 +180,13 @@
     
 
 
+}
+
+@media screen and (max-width: 400px){
+   .lower-links {
+    li {
+        font-size: 10px;
+    }
+   }
 }
 
