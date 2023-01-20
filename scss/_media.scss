@@ -108,6 +108,21 @@
         margin: auto;
     }
 
+    .nav-main {
+        display: flex;
+        flex-direction: column;
+        
+        .logo{
+            margin: 0;
+        }
+
+        .upper-links li{
+            padding: 0;
+            margin-right: 1.5rem;
+        }
+
+    }
+
 
 
 }
