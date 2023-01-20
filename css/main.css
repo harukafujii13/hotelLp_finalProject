@@ -10,6 +10,14 @@ main {
   position: relative;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .nav-main {
   display: flex;
   justify-content: space-between;
@@ -42,6 +50,7 @@ main {
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
+  background-color: #e4beb6;
 }
 .nav-supporting .lower-links {
   display: flex;
@@ -75,7 +84,7 @@ section h1 {
 .section-btn {
   position: relative;
   left: 50%;
-  top: 55%;
+  top: 67%;
   transform: translate(-50%, -50%);
   background-color: #e4beb6;
   padding: 10px 15px;
@@ -83,6 +92,9 @@ section h1 {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+.section-btn:hover {
+  opacity: 0.6;
 }
 
 .benefit {
@@ -164,6 +176,11 @@ section h1 {
   width: 20rem;
   height: auto;
 }
+.distination .distination-img:hover {
+  box-shadow: 10px 10px 10px rgb(210, 210, 201);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
 
 .gallery {
   display: flex;
@@ -194,6 +211,9 @@ section h1 {
   border: none;
   font-size: 0.5rem;
   cursor: pointer;
+}
+.gallery .gallery-btn:hover {
+  opacity: 0.6;
 }
 
 .align-center {
@@ -287,6 +307,9 @@ section h1 {
   padding: 8px 16px;
   border: none;
   cursor: pointer;
+}
+.contact-form .submit-btn:hover {
+  opacity: 0.6;
 }
 
 .note {
@@ -440,7 +463,7 @@ section h1 {
 }
 @media screen and (max-width: 700px) {
   .section-btn {
-    top: 60%;
+    top: 73%;
     transform: translate(-50%, -50%);
   }
   .benefit-container {

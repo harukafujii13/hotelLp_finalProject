@@ -8,7 +8,13 @@ main {
 
 
 //header
-
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 10;
+}
 
 .nav-main {
    display: flex;
@@ -47,6 +53,7 @@ main {
    display: flex;
    justify-content: flex-end;
    padding: 1rem;
+   background-color: $color-pink;
 
    .lower-links {
       display: flex;
@@ -89,7 +96,7 @@ section {
 .section-btn {
    position: relative;
    left: 50%;
-   top: 55%;
+   top: 67%;
    transform: translate(-50%, -50%);
    background-color: $color-pink;
    padding: 10px 15px;
@@ -97,7 +104,13 @@ section {
    border: none;
    font-size: 1.5rem;
    cursor: pointer;
+
+   &:hover{
+      opacity: 0.6;
+   }
 }
+
+
 
 //benefit
 .benefit {
@@ -201,6 +214,12 @@ section {
       width: 20rem;
       height: auto;
 
+      &:hover{
+         box-shadow: 10px 10px 10px rgba(210, 210, 201);
+         transform: translateY(-10px);
+         transition-duration: 0.5s; 
+     }
+
    }
 }
 
@@ -236,6 +255,10 @@ section {
       border: none;
       font-size: 0.5rem;
       cursor: pointer;
+
+      &:hover{
+         opacity: 0.6;
+      }
    }
 }
 
@@ -350,6 +373,10 @@ section {
       padding: 8px 16px;
       border: none;
       cursor: pointer;
+
+      &:hover{
+         opacity: 0.6;
+      }
    }
 }
 
@@ -453,6 +480,8 @@ section {
 .footer-bottum {
    background-color: $color-pink;
    padding: 1.5rem 0;
+
+
 
    p{
       text-align: center;
